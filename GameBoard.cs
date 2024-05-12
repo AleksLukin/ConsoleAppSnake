@@ -8,7 +8,7 @@ namespace ConsoleAppSnake
 {
     internal class GameBoard
     {
-        public void Square()
+        public void ToBuildSquare()
         {                       
             for (int i = 0; i <= 41; i++)
             {

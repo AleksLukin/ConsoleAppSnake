@@ -8,5 +8,9 @@ namespace ConsoleAppSnake
 {
     internal class GameHero
     {
+        public void MakeHeroSnake()
+        {
+            Console.WriteLine("~");
+        }
     }
 }

@@ -8,5 +8,9 @@ namespace ConsoleAppSnake
 {
     internal class GameFood
     {
+        public void MakeFoodSnake()
+        {
+            Console.WriteLine("+");
+        }
     }
 }
