@@ -16,6 +16,9 @@ namespace ConsoleAppSnake
             GameFood food = new GameFood();
             food.MakeFoodSnake();
 
+            GameHero hero = new GameHero();
+            hero.MakeHeroSnake();
+
             Console.ReadLine();
         }
     }

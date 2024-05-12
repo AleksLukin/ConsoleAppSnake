@@ -10,7 +10,8 @@ namespace ConsoleAppSnake
     {
         public void MakeHeroSnake()
         {
-            Console.WriteLine("~");
+            Console.SetCursorPosition(10,10);
+            Console.Write("~");
         }
     }
 }
