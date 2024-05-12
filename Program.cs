@@ -10,7 +10,16 @@ namespace ConsoleAppSnake
     {
         static void Main(string[] args)
         {
+            GameBoard board = new GameBoard();
+            board.ToBuildSquare();
 
+            GameFood food = new GameFood();
+            food.MakeFoodSnake();
+
+            GameHero hero = new GameHero();
+            hero.MakeHeroSnake();
+
+            Console.ReadLine();
         }
     }
 }
