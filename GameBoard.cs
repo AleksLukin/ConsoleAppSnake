@@ -12,6 +12,8 @@ namespace ConsoleAppSnake
         {                       
             for (int i = 0; i <= 41; i++)
             {
+                Console.WindowHeight =23;
+                Console.WindowWidth = 42;
                 Console.Write("*");
             }
             Console.WriteLine();
