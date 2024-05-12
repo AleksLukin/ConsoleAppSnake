@@ -10,6 +10,12 @@ namespace ConsoleAppSnake
     {
         static void Main(string[] args)
         {
+            GameBoard board = new GameBoard();
+            board.Square();
+
+            
+
+            Console.ReadLine();
 
         }
     }
