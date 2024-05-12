@@ -16,9 +16,7 @@ namespace ConsoleAppSnake
             GameFood food = new GameFood();
             food.MakeFoodSnake();
 
-
             Console.ReadLine();
-
         }
     }
 }

@@ -10,7 +10,11 @@ namespace ConsoleAppSnake
     {
         public void MakeFoodSnake()
         {
-            Console.WriteLine("+");
+            Console.SetCursorPosition(5, 5);
+            Console.WriteLine("~");
+
+            Console.SetCursorPosition(32, 32);
+            Console.WriteLine();
         }
     }
 }
